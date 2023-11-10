@@ -1,8 +1,11 @@
+.treaty1{
+  color: #58E458;
+}
 .nav-link{
   display: inline;
   padding: 5px;
   margin: 4px;
-  color: #EEEAE2;
+  color: #EEEE24;
 }
 header{
   background-color: #171925;
@@ -64,4 +67,7 @@ footer{
 img{
   border-style:solid;
   border-radius: 25px;
+}
+.bulletPoints{
+  color: #184CB9;
 }
