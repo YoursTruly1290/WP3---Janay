@@ -3,8 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms Of The Treaty</title>
+  <title>Contact Me</title>
   <link rel="stylesheet" href="CSS/stylesheet.css" />
+
+  <style>
+    label{
+      font-family: sans-serif;
+    }
+  </style>
+
 </head>
 <body>
   <!-- Navigational Bar -->
@@ -16,7 +23,7 @@
       <!-- Navigation links -->
       <nav>
         <div class="nav-link">
-          <th style="padding-left: 650px;"><a class="nav-link" href="index.html">Home</a></th>
+          <th style="padding-left: 550px;"><a class="nav-link" href="index.html">Home</a></th>
           <th><a class="nav-link" href="community.html">Communities</a></th>
           <th><a class="nav-link" href="treatyTerms.html">Terms Of Treaty</a></th>
           <th><a class="nav-link" href="moreInfo.html">More Information</a></th>
@@ -28,32 +35,46 @@
   
   <!-- The main content of the webpage -->
   <main>
-    <table>
-      <tr>
-        <td>
-          <!-- The answer to the questions -->
-          <h2>What are the historic terms of the Treaty, meaning what was included in the Treaty?</h2>
-          <p>Treaty 1, like many historical treaties, had some important terms. Here are some of the key things included in the Treaty:</p>
-            <ul><li><p class="bulletPoints">Land Sharing:</p></li></ul><p>The Indigenous people agreed to share their land with the Canadian government. In exchange, the government promised to provide reserves where Indigenous families could live, hunt, and fish. These reserves were like special areas set aside for them.</p>
-            <ul><li><p class="bulletPoints">Payments:</p></li></ul><p>The government agreed to give the Indigenous families money, which they called annuities. These payments were made every year to help the families. The amount was set in the treaty.</p>
-            <ul><li><p class="bulletPoints">Education and Healthcare:</p></li></ul><p>The government promised to provide schools and healthcare services for the Indigenous people living on the reserves.</p>
-            <ul><li><p class="bulletPoints">Hunting and Fishing Rights:</p></li></ul><p>The Indigenous people were allowed to continue hunting and fishing on the land they didn't give up. This was important for their way of life and culture.</p>
-            <ul><li><p class="bulletPoints">Peace and Friendship:</p></li></ul><p>Both sides promised to be friends and live peacefully. The Indigenous people agreed not to make trouble with settlers, and the government promised to protect the Indigenous people and their way of life.</p>
-
-        </td>
-        <td>
-          <!-- All the images of the webpage -->
-          <figure><img src="Images/handshake.jpg" alt="A picture of 2 men shaking hands, one is dresed in cultural traditional clothing and the other is wearing clothes of a governor general. The background consists of grass, river, sunrise, tipis and a hatchet burried in the ground." width="650" height="400" /></figure>
-          <figcaption><a class="link" style="padding-left: 300px;" href="https://www.gov.mb.ca/legislature/about/land_acknowledgement.html" target="_blank">Link to the picture of 2 people shaking hands</a></figcaption>
-
-          <figure><img src="Images/document.jpg" alt="The offical treaty 1 document with the title and a few paragraphs." width="650" height="400" /></figure>
-          <figcaption><a class="link" style="padding-left: 300px;" href="https://www.thecanadianencyclopedia.ca/en/article/numbered-treaties" target="_blank">Link to the picture of Treaty 1 Document</a></figcaption>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <br />
+    <!-- title -->
+    <h2>Contact Me</h2>
+    <form method="get">
+      <fieldset method="GET">
+        <!-- title of fieldset -->
+        <legend>Contact</legend>
+        <!-- firstname -->
+        <label for="FName">First Name (John):</label>
+        <input type="text" name="FName" id="FName"/>
+        <br />
+        <!-- lastname -->
+        <label for="LName">Last Name (Doe):</label>
+        <input type="text" name="LName" id="LName">
+        <br />
+        <!-- email -->
+        <label for="email">Email (JohnDoe@gamil.com):</label>
+        <input type="email" name="email" id="email"/>
+        <br />
+        <!-- phone number -->
+        <label for="phone">Phone Number (123-456-7890):</label>
+        <input type="tel" name="phone" id="phone"/>
+        <br />
+        <br />
+        <br />
+        <!-- topic of conversation -->
+        <label for="topic">Topic (Need more detailed information):</label>
+        <input type="text" name="topic" id="topic" />
+        <br />
+        <!-- description of conversation -->
+        <p style="font-family: sans-serif; font-size: 20px; color: black; padding: 0px;">Description (describe your topic):</p>
+        <textarea style="margin-left: 20px; margin-bottom: 20px;" name="desc" id="desc" cols="30" rows="10"></textarea>
+        <br />
+        <!-- submit and reset button -->
+        <input style="margin-left: 10px;" type="reset" />
+        <input style="margin-left: 10px;" type="submit" value="Submit" />
+      </fieldset>
+    </form>
   </main>
+  <br />
+  <br />
 </body>
 
 
